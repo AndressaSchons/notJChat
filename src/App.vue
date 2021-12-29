@@ -7,11 +7,17 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Footer from './components/Footer.vue'
+import Login from './components/Login.vue'
+import Online from './components/Online.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Footer,
+    Login,
+    Online,
   }
 }
 </script>
